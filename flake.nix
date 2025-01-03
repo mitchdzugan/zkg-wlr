@@ -9,7 +9,8 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
       in rec {
-        packages.default = pkgs.rustPlatform.buildRustPackage rec {
+        packages.default = packages.zkg-wlr;
+        packages.zkg-wlr = pkgs.rustPlatform.buildRustPackage rec {
           pname = "zkg-wlr";
           version = "0.0.1";
           src = ./.;
