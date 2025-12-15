@@ -14,7 +14,7 @@
           pname = "zkg-wlr";
           version = "0.0.1";
           src = ./.;
-          cargoHash = "sha256-g+rdrgqG88aO8kXTJ+3zZuN5wN/NXsi6tB/qj5xHbwE=";
+          cargoHash = "sha256-OusLfY7MxcPM19khHngpJKqENNdvFwP60VCs7eCtfkc=";
           buildInputs = with pkgs; [
             cairo
             glib
